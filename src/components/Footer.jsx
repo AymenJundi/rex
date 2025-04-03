@@ -62,7 +62,6 @@ const Footer = () => {
         <div className="mt-6">
           <select className="bg-[#1746ff] text-white border-none">
             <option value="en">English</option>
-          
             <option value="am">አማርኛ</option>
           </select>
         </div>
@@ -78,12 +77,10 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between mt-6">
           <div className="w-full sm:w-1/2 md:w-1/4">
             <p className="text-white text-[16px]">Adama, Ethiopia</p>
-            
             <p className="text-white text-[16px]">+251964350841</p>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/4">
             <p className="text-white text-[16px] mt-4">Addis Ababa, Ethiopia</p>
-            
           </div>
         </div>
       </div>

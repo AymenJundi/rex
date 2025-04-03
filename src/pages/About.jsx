@@ -25,10 +25,10 @@ const CEO = () => {
 
 const Team = () => {
   const teamMembers = [
-    { name: "John Doe", role: "Lead Developer", img: "/assets/rex.png" },
-    { name: "Jane Smith", role: "Product Manager", img: "/assets/rex.png" },
-    { name: "Mike Johnson", role: "UI/UX Designer", img: "/assets/rex.png" },
-    { name: "Sarah Lee", role: "Marketing Director", img: "/assets/rex.png" }
+    { name: "John Doe", role: "Lead Developer", img: "./assets/rex.png" },
+    { name: "Jane Smith", role: "Product Manager", img: "./assets/rex.png" },
+    { name: "Mike Johnson", role: "UI/UX Designer", img: "./assets/rex.png" },
+    { name: "Sarah Lee", role: "Marketing Director", img: "./assets/rex.png" }
   ];
 
   return (
@@ -110,4 +110,3 @@ const About = () => {
 };
 
 export default SectionWrapper(About, "about");
-
