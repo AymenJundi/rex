@@ -1,4 +1,13 @@
 {
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"  
+      }
+    }
+  ],
   "headers": [
     {
       "source": "/name/assets/js/(.*).js",
@@ -8,16 +17,6 @@
           "value": "application/javascript"
         }
       ]
-    }
-  ],
-  "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "src/main.jsx",
-      "use": "@vercel/node"
     }
   ]
 }
